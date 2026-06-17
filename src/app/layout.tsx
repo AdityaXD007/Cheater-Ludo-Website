@@ -16,10 +16,10 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'CV Maker - Create Professional Looking CV',
-  description: 'CV Maker - Create professional CV in a minute',
+  title: 'Teen Patti Tracker - The Ultimate Game Companion',
+  description: 'Easily track scores, rounds, and players during your Teen Patti game nights. Download the ultimate tracker app now!',
   appleWebApp: {
-    title: 'CV Maker',
+    title: 'Teen Patti Tracker',
   },
 }
 

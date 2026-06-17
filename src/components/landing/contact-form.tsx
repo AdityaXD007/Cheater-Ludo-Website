@@ -62,13 +62,13 @@ const ContactForm = () => {
       <AnimateWrapper>
         <section className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column: Image */}
-          <div className="relative aspect-square lg:aspect-4/5 w-full max-h-150 overflow-hidden rounded-2xl bg-muted/20 order-last lg:order-first">
+          <div className="relative w-full max-w-md lg:max-w-lg mx-auto order-last lg:order-first flex justify-center items-center">
             <Image
               src="/images/landing-hero.png"
               alt="Contact Support"
               height={800}
               width={800}
-              className="object-contain"
+              className="w-full h-auto object-contain drop-shadow-2xl"
               priority
             />
           </div>

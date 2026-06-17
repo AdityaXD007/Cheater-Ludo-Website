@@ -32,9 +32,9 @@ export default function AdminLoginPage() {
         </CardContent>
       </Card>
 
-      <p className="mt-6 text-sm text-muted-foreground">
-        © {new Date().getFullYear()} CV Maker. All rights reserved.
-      </p>
+      <footer className="py-4 text-center text-sm text-muted-foreground border-t">
+        © {new Date().getFullYear()} Teen Patti Tracker. All rights reserved.
+      </footer>
     </div>
   )
 }

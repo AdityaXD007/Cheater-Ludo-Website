@@ -28,7 +28,7 @@ const PrivacyPolicyPage = () => {
             (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to
             protecting your privacy. This Privacy Policy explains how we
             collect, use, and safeguard your information when you use our mobile
-            application, <strong>CV Maker</strong>, available on the Apple App
+            application, <strong>Teen Patti Tracker</strong>, available on the Apple App
             Store and Google Play Store.
           </p>
 
@@ -37,23 +37,22 @@ const PrivacyPolicyPage = () => {
               1. Information We Collect
             </h2>
             <p>
-              To provide you with our CV creation services, we may collect the
+              To provide you with our game tracking services, we may collect the
               following types of information:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
                 <strong>Personal Information:</strong> Information you
-                voluntarily provide to generate your CV, such as your name,
-                contact details (email, phone number), address, education
-                history, work experience, and skills.
+                voluntarily provide to manage your profile and games, such as custom player names. We also collect anonymous device/user IDs to sync your data.
               </li>
               <li>
-                <strong>Account Information:</strong> If you choose to create an
-                account to save your data, we collect your email address and
-                password. Alternatively, you may log in using Google or Apple
-                authentication services, in which case we collect your basic
-                profile information (name and email) authorized by those
-                providers.
+                <strong>Camera Permissions:</strong> The app requests access to your device's camera locally solely for the purpose of scanning QR codes to join multiplayer sessions.
+              </li>
+              <li>
+                <strong>Game Data:</strong> We collect game scores, balances, and round histories (who won/lost and amounts) to sync across devices.
+              </li>
+              <li>
+                <strong>Account Information:</strong> No manual account creation is required. We use Firebase Anonymous Authentication in the background to seamlessly assign a unique ID to each user. No email, password, or social sign-in is required.
               </li>
               <li>
                 <strong>Usage Data:</strong> Anonymous data about how you
@@ -70,16 +69,16 @@ const PrivacyPolicyPage = () => {
             <p>We use the collected information for the following purposes:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                To create and format your CV based on the templates you choose.
+                To track and calculate scores for your physical Teen Patti card games.
               </li>
               <li>
-                To facilitate account creation and secure login processes.
+                To facilitate account creation, secure login processes, and cloud sync.
               </li>
               <li>
-                To save your progress and allow you to edit your CVs across
+                To save your game session history and allow you to view past scores across
                 devices.
               </li>
-              <li>To improve our app features, functionality, and designs.</li>
+              <li>To improve our app features, functionality, and performance in compliance with Apple App Store guidelines.</li>
             </ul>
           </section>
 
@@ -88,11 +87,7 @@ const PrivacyPolicyPage = () => {
               3. Data Storage and Security
             </h2>
             <p>
-              Your personal data and generated CVs are stored securely on our
-              servers. We implement appropriate technical and organizational
-              measures to protect your data against unauthorized access,
-              alteration, disclosure, or destruction. However, please note that
-              no method of transmission over the internet is 100% secure.
+              Data is cached locally on your device and synced in real-time to a secure cloud database (Firebase Firestore) so multiple players can view and update the same game session from different devices. We implement appropriate technical and organizational measures to protect your data, but please note that no method of transmission over the internet is 100% secure.
             </p>
           </section>
 
@@ -101,18 +96,20 @@ const PrivacyPolicyPage = () => {
               4. Third-Party Services
             </h2>
             <p>
-              We may use third-party services for authentication and app
-              performance monitoring:
+              We use the following third-party services for app functionality, synchronization, and performance monitoring:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                <strong>Authentication:</strong> Google Sign-In and Sign in with
-                Apple. These services adhere to their own privacy policies.
+                <strong>Firebase Firestore:</strong> For real-time database sync.
               </li>
               <li>
-                <strong>App Stores:</strong> Apple App Store and Google Play
-                Store may process payments or subscriptions if applicable,
-                subject to their respective terms.
+                <strong>Firebase Authentication:</strong> For anonymous background logins.
+              </li>
+              <li>
+                <strong>Firebase Analytics:</strong> For usage analytics to improve the app.
+              </li>
+              <li>
+                <strong>Sentry:</strong> For crash reporting and application monitoring.
               </li>
             </ul>
           </section>
@@ -138,7 +135,7 @@ const PrivacyPolicyPage = () => {
             </p>
             <p className="mt-2 text-foreground font-medium">
               <Link
-                href="https://everesttechnologies.com.np/"
+                href="https://teenpattitracker.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -146,7 +143,7 @@ const PrivacyPolicyPage = () => {
                 Everest Technologies
               </Link>{' '}
               <br />
-              Email: tech.everest.2021@gmail.com
+              Email: info@everesttechnologies.com.np
             </p>
           </section>
         </div>

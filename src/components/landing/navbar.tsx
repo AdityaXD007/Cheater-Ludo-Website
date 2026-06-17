@@ -1,3 +1,5 @@
+"use client"
+
 import {
   Sheet,
   SheetTrigger,
@@ -17,25 +19,8 @@ import Container from '../global/container'
 import {IconMenu2} from '@tabler/icons-react'
 import IconLogo from '../global/icon-logo'
 import {RainbowButton} from '../ui/rainbow-button'
+import {NavLinks} from '@/config/constant'
 
-export const NavLinks = [
-  {
-    name: 'Home',
-    href: '/',
-  },
-  {
-    name: 'How To Use',
-    href: '/#how-to-use',
-  },
-  {
-    name: 'Download App',
-    href: '/#download-app',
-  },
-  {
-    name: 'Contact Us',
-    href: '/#contact-us',
-  },
-]
 export const NavBar = () => {
   return (
     <header

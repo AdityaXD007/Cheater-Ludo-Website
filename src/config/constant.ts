@@ -30,6 +30,24 @@ export const AdminSideBarLinks: SidebarNavLinks[] = [
   }
 ]
 
+export const NavLinks = [
+  {
+    name: 'Home',
+    href: '/',
+  },
+  {
+    name: 'How To Use',
+    href: '/#how-to-use',
+  },
+  {
+    name: 'Download App',
+    href: '/#download-app',
+  },
+  {
+    name: 'Contact Us',
+    href: '/#contact-us',
+  },
+]
 export const CATEGORIES: TemplateCategory[] = [
   'Modern', 'Professional', 'Creative', 'Minimalist', 'Corporate'
 ];

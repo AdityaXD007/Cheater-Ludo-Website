@@ -24,8 +24,8 @@ export function SidebarTop() {
             </Avatar>
           </div>
           <div className="grid flex-1 text-left text-sm leading-tight gap-0.5">
-            <span className="truncate font-semibold relative ">
-              CV Maker
+            <span className="truncate font-semibold">
+              Teen Patti Tracker
             </span>
             <span className="text-md font-semibold text-muted-foreground">
               Admin Panel

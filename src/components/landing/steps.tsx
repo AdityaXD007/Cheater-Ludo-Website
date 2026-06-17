@@ -4,21 +4,21 @@ import AnimateWrapper from '../global/animate-wrapper'
 const steps = [
   {
     number: '1',
-    title: 'Choose Template',
+    title: 'Download & Install',
     description:
-      'Browse our curated collection of ATS-optimized templates. Select the style that best matches your industry and personality.',
+      'Download the app from our website or app store. Setup takes just a few seconds.',
   },
   {
     number: '2',
-    title: 'Fill Your Info',
+    title: 'Create a Session',
     description:
-      'Add your experience, education, and skills. Our smart editor guides you with helpful suggestions to enhance your content.',
+      'Create a new game session and invite your friends. Add players to the table easily.',
   },
   {
     number: '3',
-    title: 'Download & Apply',
+    title: 'Start Tracking',
     description:
-      'Export your resume as PDF or Word instantly. Start applying to jobs with confidence and professional formatting.',
+      'Start playing with real cards while the app tracks rounds, scores, and dealer rotations flawlessly.',
   },
 ]
 const StepsSection = () => {
@@ -35,11 +35,11 @@ const StepsSection = () => {
               Simple Process
             </span>
             <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight text-pretty">
-              Three Steps to Your Perfect CV
+              Three Steps to Start Tracking
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light text-pretty">
               Get started in minutes. No complicated steps, just straightforward
-              CV building.
+              game tracking.
             </p>
           </div>
 

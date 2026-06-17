@@ -28,19 +28,17 @@ const HeroSection = () => {
                 <span className="bg-primary text-white h-4 w-11 rounded-full inline-flex items-center justify-center text-[10px] font-bold tracking-wide">
                   New
                 </span>
-                Discover Professional Templates
+                The Ultimate Teen Patti Tracker
               </span>
             </AnimatedShinyText>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground text-pretty">
-            Build Your <span className="text-primary">Perfect CV</span> in
-            Minutes
+            Track Your <span className="text-primary">Teen Patti</span> Games Easily
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg">
-            Create professional, ATS-friendly resumes that stand out. Choose
-            from our modern templates and land your dream job today.
+            Keep track of your scores, rounds, and players in real-time. The perfect companion app for your physical Teen Patti game nights.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -55,15 +53,17 @@ const HeroSection = () => {
         </AnimateWrapper>
 
         {/* Right Column: Hero Image visually representing the app */}
-        <AnimateWrapper delay={0.4}>
-          <Image
-            src="/images/landing-hero.png"
-            alt="CV Maker App Interface"
-            height={1300}
-            width={1300}
-            className=""
-            priority
-          />
+        <AnimateWrapper delay={0.4} className="flex justify-center items-center w-full">
+          <div className="relative w-full max-w-lg lg:max-w-[130%] lg:-ml-12 lg:-mt-12 xl:-mt-20">
+            <Image
+              src="/images/landing-hero.png"
+              alt="Teen Patti App Interface"
+              height={1300}
+              width={1300}
+              className="w-full h-auto object-contain drop-shadow-2xl"
+              priority
+            />
+          </div>
         </AnimateWrapper>
       </div>
     </Container>

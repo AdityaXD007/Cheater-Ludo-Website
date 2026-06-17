@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Container from '../global/container'
 import DelayContainer from '../global/delay-container'
 import IconLogo from '../global/icon-logo'
-import {NavLinks} from './navbar'
+import {NavLinks} from '@/config/constant'
 
 const Footer = () => {
   return (
@@ -17,8 +17,7 @@ const Footer = () => {
                 <IconLogo />
               </div>
               <p className="text-muted-foreground mt-4 text-sm text-start leading-relaxed">
-                Create professional-looking CVs in minutes with our easy-to-use
-                builder. Join thousands of satisfied users today.
+                The ultimate companion app for tracking your Teen Patti games. Enjoy seamless scorekeeping and player management.
               </p>
             </div>
           </DelayContainer>
