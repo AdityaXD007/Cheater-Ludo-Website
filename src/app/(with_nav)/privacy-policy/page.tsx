@@ -10,13 +10,13 @@ const PrivacyPolicyPage = () => {
             Privacy Policy
           </h1>
           <p className="text-muted-foreground text-sm">
-            Last Updated: [DATE]
+            Last Updated: 7 June 2026
           </p>
         </div>
 
         <div className="space-y-6 text-foreground/80 leading-relaxed">
           <p>
-            <strong>Cheater Ludo</strong> ("the App") is developed by [YOUR NAME / COMPANY NAME]. This Privacy Policy explains what information the App collects and how it is used.
+            <strong>Cheater Ludo</strong> ("the App") is developed by Everest Technologies. This Privacy Policy explains what information the App collects and how it is used.
           </p>
 
           <section className="space-y-3">
@@ -73,7 +73,7 @@ const PrivacyPolicyPage = () => {
             <p>
               Questions about this Privacy Policy can be directed to: <br />
               <strong className="mt-2 block">
-                [YOUR CONTACT EMAIL]
+                info@everesttechnologies.com.np
               </strong>
             </p>
           </section>

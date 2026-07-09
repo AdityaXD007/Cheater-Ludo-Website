@@ -10,7 +10,7 @@ const TermsAndConditionPage = () => {
             Terms and Conditions
           </h1>
           <p className="text-muted-foreground text-sm">
-            Last Updated: [DATE]
+            Last Updated: 7 June 2026
           </p>
         </div>
 
@@ -119,7 +119,7 @@ const TermsAndConditionPage = () => {
             <p>
               Questions about these Terms can be directed to: <br />
               <strong className="mt-2 block">
-                [YOUR CONTACT EMAIL]
+                info@everesttechnologies.com.np
               </strong>
             </p>
           </section>
