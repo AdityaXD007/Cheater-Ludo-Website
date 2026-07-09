@@ -16,10 +16,10 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Teen Patti Tracker - The Ultimate Game Companion',
-  description: 'Easily track scores, rounds, and players during your Teen Patti game nights. Download the ultimate tracker app now!',
+  title: 'Cheater Ludo',
+  description: 'Cheater Ludo is a casual party-style Ludo game for entertainment purposes with a hidden dice-rigging mechanic.',
   appleWebApp: {
-    title: 'Teen Patti Tracker',
+    title: 'Cheater Ludo',
   },
 }
 

@@ -14,10 +14,10 @@ const CTASection = () => {
           <div className="grid  grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="max-w-xl">
               <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                Download Teen Patti Tracker!
+                Download Cheater Ludo!
               </h2>
               <p className="mt-4 max-w-lg text-left text-base/6 text-neutral-200">
-                Get the app on your phone and never lose track of a game again.
+                Get the app on your phone and start playing with your friends.
                 Available for iOS and Android devices.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 text-white mt-8 z-20 relative">
@@ -51,7 +51,7 @@ const CTASection = () => {
             </div>
             <div className="relative hidden lg:flex items-center justify-center">
               <Image
-                src="/images/landing-hero.png"
+                src="/images/landing-hero-new.png"
                 alt="App Interface"
                 width={1000}
                 height={1000}

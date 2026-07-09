@@ -17,7 +17,7 @@ const Footer = () => {
                 <IconLogo />
               </div>
               <p className="text-muted-foreground mt-4 text-sm text-start leading-relaxed">
-                The ultimate companion app for tracking your Teen Patti games. Enjoy seamless scorekeeping and player management.
+                The ultimate casual party-style Ludo game with a hidden dice-rigging mechanic.
               </p>
             </div>
           </DelayContainer>

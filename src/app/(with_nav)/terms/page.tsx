@@ -1,5 +1,5 @@
 import Container from '@/components/global/container'
-import Link from 'next/link'
+import React from 'react'
 
 const TermsAndConditionPage = () => {
   return (
@@ -10,83 +10,69 @@ const TermsAndConditionPage = () => {
             Terms and Conditions
           </h1>
           <p className="text-muted-foreground text-sm">
-            Last Updated: {new Date().toLocaleDateString()}
+            Last Updated: [DATE]
           </p>
         </div>
 
         <div className="space-y-6 text-foreground/80 leading-relaxed">
-          <p>
-            Welcome to Teen Patti Tracker! These Terms and Conditions (&quot;Terms&quot;)
-            govern your use of the Teen Patti Tracker mobile application (&quot;App&quot;) provided by
-            <Link
-              href="https://everesttechnologies.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary"
-            >
-              Everest Technologies
-            </Link>{' '}
-            (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
-          </p>
-          <p>
-            By accessing or using the App, you agree to be bound by these Terms.
-            If you disagree with any part of the terms, then you may not access
-            the App.
-          </p>
-
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              1. Use of the App
+              1. Acceptance of Terms
             </h2>
             <p>
-              Teen Patti Tracker provides users with a utility tool to track scores, rounds, 
-              and dealer rotations for physical, real-world Teen Patti card games. You are granted a limited,
-              non-exclusive, non-transferable, and revocable license to use the
-              App for your personal, non-commercial use in accordance with Apple App Store guidelines.
-            </p>
-            <p className="mt-2 text-red-500 font-medium">
-              You must be at least 17 years of age to use this App.
-            </p>
-          </section>
-
-          <section className="space-y-3">
-            <h2 className="text-xl font-semibold text-foreground text-red-500">
-              2. Strictly a Utility - No Real Money Gambling
-            </h2>
-            <p>
-              <strong>IMPORTANT:</strong> Teen Patti Tracker is strictly a score-keeping utility application. 
-              The App does <strong>NOT</strong> offer, promote, facilitate, or simulate real-money gambling, 
-              betting, or wagering of any kind. The App does not allow users to deposit, win, or withdraw 
-              real money or anything of monetary value. It is solely designed to assist players in keeping 
-              track of their physical game scores offline.
+              By downloading, installing, or playing Cheater Ludo, you agree to these Terms and Conditions. If you do not agree, please do not use the App.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              3. User Accounts
+              2. Description of the App
             </h2>
             <p>
-              No manual account creation is required to use the App. We utilize anonymous authentication running in the background to securely sync your game sessions. You are responsible for safeguarding your device to prevent unauthorized access to your game data.
+              Cheater Ludo is a casual party-style Ludo game for entertainment purposes. Unlike a standard Ludo game, Cheater Ludo includes a <strong>hidden dice-rigging mechanic</strong>: any player may secretly designate a "guaranteed winner" during a match, causing the dice to bias its results toward that outcome without other players being explicitly informed in-game of when this occurs.
+            </p>
+            <p>
+              This mechanic is the core feature of the App and is disclosed openly in the App's store listing and description. By playing, you acknowledge and accept that:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                The dice results in this game <strong>can be intentionally manipulated</strong> by a player using a hidden in-game action.
+              </li>
+              <li>
+                This manipulation is a <strong>deliberate game feature</strong>, intended for humor and playful deception among willing participants — not a bug or unfair advantage granted without your knowledge of the App's nature.
+              </li>
+              <li>
+                Cheater Ludo is intended for <strong>casual, for-fun play</strong> among friends or family who are aware of and consent to this mechanic being part of the game.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-3">
+            <h2 className="text-xl font-semibold text-foreground">
+              3. No Real-Money Gambling
+            </h2>
+            <p>
+              Cheater Ludo does <strong>not</strong> involve real-money wagering, in-app purchases tied to gambling, or any mechanism for withdrawing real currency. Any use of the App to facilitate real-money betting between players is done entirely outside the App, at users' own risk, and is not endorsed, supported, or facilitated by the developer.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              4. User Content
+              4. Appropriate Use
             </h2>
             <p>
-              Our App allows you to post, link, store, share and otherwise make
-              available certain information, text, graphics, or other material
-              (&quot;Content&quot;). You are responsible for the Content that
-              you post to the App, including its legality, reliability, and
-              appropriateness.
+              You agree not to use Cheater Ludo to:
             </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                Defraud, deceive, or manipulate any person in a context involving real money, real property, or real consequences without their knowledge and consent.
+              </li>
+              <li>
+                Misrepresent the nature of the App to another player in order to cause them financial or material harm.
+              </li>
+            </ul>
             <p>
-              By posting Content to the App, you grant us the right and license
-              to use, modify, perform, display, reproduce, and distribute such
-              Content on and through the App solely for the purpose of providing
-              the service to you.
+              The developer disclaims liability for any misuse of the App's rigging mechanic outside the intended casual, consensual, for-fun context described in this document and the App's store listing.
             </p>
           </section>
 
@@ -95,31 +81,16 @@ const TermsAndConditionPage = () => {
               5. Intellectual Property
             </h2>
             <p>
-              The App and its original content (excluding Content provided by
-              users), features, and functionality are and will remain the
-              exclusive property of{' '}
-              <Link
-                href="https://everesttechnologies.com.np/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary"
-              >
-                Everest Technologies
-              </Link>{' '}
-              and its licensors. The App is protected by copyright, trademark,
-              and other laws.
+              All game assets, artwork, and code within Cheater Ludo are the property of [YOUR NAME / COMPANY NAME] unless otherwise credited (e.g., third-party assets used under their respective licenses). You may not redistribute, resell, or repackage the App without permission.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              6. Termination
+              6. Disclaimer of Warranty
             </h2>
             <p>
-              We may terminate or suspend your account immediately, without
-              prior notice or liability, for any reason whatsoever, including
-              without limitation if you breach the Terms. Upon termination, your
-              right to use the App will immediately cease.
+              Cheater Ludo is provided "as is" without warranties of any kind, express or implied. We do not guarantee the App will be error-free or uninterrupted.
             </p>
           </section>
 
@@ -128,55 +99,28 @@ const TermsAndConditionPage = () => {
               7. Limitation of Liability
             </h2>
             <p>
-              In no event shall{' '}
-              <Link
-                href="https://everesttechnologies.com.np/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary"
-              >
-                Everest Technologies
-              </Link>
-              , nor its directors, employees, partners, agents, suppliers, or
-              affiliates, be liable for any indirect, incidental, special,
-              consequential or punitive damages, including without limitation,
-              loss of profits, data, use, goodwill, or other intangible losses,
-              resulting from your access to or use of or inability to access or
-              use the App.
+              To the maximum extent permitted by law, [YOUR NAME / COMPANY NAME] shall not be liable for any indirect, incidental, or consequential damages arising from your use of the App, including any disputes between players arising from use of the rigging mechanic.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              8. Changes
+              8. Changes to These Terms
             </h2>
             <p>
-              We reserve the right, at our sole discretion, to modify or replace
-              these Terms at any time. We will provide notice of any significant
-              changes. By continuing to access or use our App after those
-              revisions become effective, you agree to be bound by the revised
-              terms.
+              We may revise these Terms at any time. Continued use of the App after changes are posted constitutes acceptance of the revised Terms.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              9. Contact Us
+              9. Contact
             </h2>
             <p>
-              If you have any questions about these Terms, please contact us at:
-            </p>
-            <p className="mt-2 text-foreground font-medium">
-              <Link
-                href="https://teenpattitracker.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary"
-              >
-                Everest Technologies
-              </Link>{' '}
-              <br />
-              Email: info@everesttechnologies.com.np
+              Questions about these Terms can be directed to: <br />
+              <strong className="mt-2 block">
+                [YOUR CONTACT EMAIL]
+              </strong>
             </p>
           </section>
         </div>

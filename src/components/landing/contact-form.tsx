@@ -64,7 +64,7 @@ const ContactForm = () => {
           {/* Left Column: Image */}
           <div className="relative w-full max-w-md lg:max-w-lg mx-auto order-last lg:order-first flex justify-center items-center">
             <Image
-              src="/images/landing-hero.png"
+              src="/images/landing-hero-new.png"
               alt="Contact Support"
               height={800}
               width={800}

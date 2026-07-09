@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Container from '@/components/global/container'
 import React from 'react'
 
@@ -11,139 +10,71 @@ const PrivacyPolicyPage = () => {
             Privacy Policy
           </h1>
           <p className="text-muted-foreground text-sm">
-            Last Updated: {new Date().toLocaleDateString()}
+            Last Updated: [DATE]
           </p>
         </div>
 
         <div className="space-y-6 text-foreground/80 leading-relaxed">
           <p>
-            <Link
-              href="https://everesttechnologies.com.np/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              Everest Technologies
-            </Link>{' '}
-            (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to
-            protecting your privacy. This Privacy Policy explains how we
-            collect, use, and safeguard your information when you use our mobile
-            application, <strong>Teen Patti Tracker</strong>, available on the Apple App
-            Store and Google Play Store.
+            <strong>Cheater Ludo</strong> ("the App") is developed by [YOUR NAME / COMPANY NAME]. This Privacy Policy explains what information the App collects and how it is used.
           </p>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              1. Information We Collect
+              Information We Collect
             </h2>
             <p>
-              To provide you with our game tracking services, we may collect the
-              following types of information:
+              Cheater Ludo is designed to run primarily offline. The App does <strong>not</strong> require an account, login, or personal information to play.
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                <strong>Personal Information:</strong> Information you
-                voluntarily provide to manage your profile and games, such as custom player names. We also collect anonymous device/user IDs to sync your data.
+                <strong>Game save data:</strong> The App stores your in-progress game state (board positions, player turns, scores) locally on your device using standard local storage. This data never leaves your device and is not transmitted to us or any third party.
               </li>
               <li>
-                <strong>Camera Permissions:</strong> The app requests access to your device's camera locally solely for the purpose of scanning QR codes to join multiplayer sessions.
+                <strong>No personal data collection:</strong> We do not collect your name, email, contact list, location, or any other personally identifiable information.
               </li>
               <li>
-                <strong>Game Data:</strong> We collect game scores, balances, and round histories (who won/lost and amounts) to sync across devices.
-              </li>
-              <li>
-                <strong>Account Information:</strong> No manual account creation is required. We use Firebase Anonymous Authentication in the background to seamlessly assign a unique ID to each user. No email, password, or social sign-in is required.
-              </li>
-              <li>
-                <strong>Usage Data:</strong> Anonymous data about how you
-                interact with our app, such as crash logs and performance
-                metrics, to help us improve the user experience.
+                <strong>No analytics or tracking:</strong> The App does not currently use analytics, advertising, or tracking SDKs.
               </li>
             </ul>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              2. How We Use Your Information
-            </h2>
-            <p>We use the collected information for the following purposes:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                To track and calculate scores for your physical Teen Patti card games.
-              </li>
-              <li>
-                To facilitate account creation, secure login processes, and cloud sync.
-              </li>
-              <li>
-                To save your game session history and allow you to view past scores across
-                devices.
-              </li>
-              <li>To improve our app features, functionality, and performance in compliance with Apple App Store guidelines.</li>
-            </ul>
-          </section>
-
-          <section className="space-y-3">
-            <h2 className="text-xl font-semibold text-foreground">
-              3. Data Storage and Security
+              Children's Privacy
             </h2>
             <p>
-              Data is cached locally on your device and synced in real-time to a secure cloud database (Firebase Firestore) so multiple players can view and update the same game session from different devices. We implement appropriate technical and organizational measures to protect your data, but please note that no method of transmission over the internet is 100% secure.
+              Cheater Ludo does not knowingly collect information from children. Since the App collects no personal data at all, it does not pose the risks associated with apps that gather user information.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              4. Third-Party Services
+              Data Sharing
             </h2>
             <p>
-              We use the following third-party services for app functionality, synchronization, and performance monitoring:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                <strong>Firebase Firestore:</strong> For real-time database sync.
-              </li>
-              <li>
-                <strong>Firebase Authentication:</strong> For anonymous background logins.
-              </li>
-              <li>
-                <strong>Firebase Analytics:</strong> For usage analytics to improve the app.
-              </li>
-              <li>
-                <strong>Sentry:</strong> For crash reporting and application monitoring.
-              </li>
-            </ul>
-          </section>
-
-          <section className="space-y-3">
-            <h2 className="text-xl font-semibold text-foreground">
-              5. Your Rights
-            </h2>
-            <p>
-              You have the right to access, update, or delete your personal
-              information stored in our app. You can manage your profile within
-              the app settings or contact us to request data deletion.
+              We do not sell, rent, or share any data with third parties, because we do not collect any data to share.
             </p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              6. Contact Us
+              Changes to This Policy
             </h2>
             <p>
-              If you have any questions or concerns about this Privacy Policy,
-              please contact us at:
+              We may update this Privacy Policy from time to time. Continued use of the App after changes constitutes acceptance of the updated policy.
             </p>
-            <p className="mt-2 text-foreground font-medium">
-              <Link
-                href="https://teenpattitracker.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                Everest Technologies
-              </Link>{' '}
-              <br />
-              Email: info@everesttechnologies.com.np
+          </section>
+
+          <section className="space-y-3">
+            <h2 className="text-xl font-semibold text-foreground">
+              Contact
+            </h2>
+            <p>
+              Questions about this Privacy Policy can be directed to: <br />
+              <strong className="mt-2 block">
+                [YOUR CONTACT EMAIL]
+              </strong>
             </p>
           </section>
         </div>

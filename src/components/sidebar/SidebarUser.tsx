@@ -38,8 +38,8 @@ export function SidebarUser() {
                 className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
               >
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg  text-sidebar-primary-foreground">
-                  <Avatar className="h-10 w-10 rounded-lg">
-                    <AvatarImage src={"/images/icon-primary.png"} alt={"CV"} />
+                  <Avatar className="h-8 w-8 rounded-lg">
+                    <AvatarImage src={"/images/logo.png"} alt={"CV"} />
                     <AvatarFallback className="rounded-lg">CV</AvatarFallback>
                   </Avatar>
                 </div>

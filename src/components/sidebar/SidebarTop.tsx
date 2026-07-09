@@ -19,13 +19,13 @@ export function SidebarTop() {
         >
           <div className="flex aspect-square size-8 items-center justify-center rounded-lg  text-sidebar-primary-foreground">
             <Avatar className="h-10 w-10 rounded-lg">
-              <AvatarImage src={'/images/icon-primary.png'} alt={'CV'} />
+              <AvatarImage src={'/images/logo.png'} alt={'CV'} />
               <AvatarFallback className="rounded-lg">CV</AvatarFallback>
             </Avatar>
           </div>
           <div className="grid flex-1 text-left text-sm leading-tight gap-0.5">
             <span className="truncate font-semibold">
-              Teen Patti Tracker
+              Cheater Ludo
             </span>
             <span className="text-md font-semibold text-muted-foreground">
               Admin Panel

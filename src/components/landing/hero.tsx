@@ -28,17 +28,17 @@ const HeroSection = () => {
                 <span className="bg-primary text-white h-4 w-11 rounded-full inline-flex items-center justify-center text-[10px] font-bold tracking-wide">
                   New
                 </span>
-                The Ultimate Teen Patti Tracker
+                Cheater Ludo
               </span>
             </AnimatedShinyText>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground text-pretty">
-            Track Your <span className="text-primary">Teen Patti</span> Games Easily
+            Play <span className="text-primary">Cheater Ludo</span> With Friends
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg">
-            Keep track of your scores, rounds, and players in real-time. The perfect companion app for your physical Teen Patti game nights.
+            A casual party-style Ludo game with a hidden dice-rigging mechanic. Trick your friends and guarantee your win!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -56,8 +56,8 @@ const HeroSection = () => {
         <AnimateWrapper delay={0.4} className="flex justify-center items-center w-full">
           <div className="relative w-full max-w-lg lg:max-w-[130%] lg:-ml-12 lg:-mt-12 xl:-mt-20">
             <Image
-              src="/images/landing-hero.png"
-              alt="Teen Patti App Interface"
+              src="/images/landing-hero-new.png"
+              alt="Cheater Ludo App Interface"
               height={1300}
               width={1300}
               className="w-full h-auto object-contain drop-shadow-2xl"
